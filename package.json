@@ -16,9 +16,13 @@
     "vault_deposit": "ts-node ./cluster1/vault_deposit",
     "vault_withdraw": "ts-node ./cluster1/vault_withdraw",
     "vault_spl_deposit": "ts-node ./cluster1/vault_spl_deposit",
-    "vault_spl_withdraw": "ts-node ./cluster1/vault_spl_withdraw"
+    "vault_spl_withdraw": "ts-node ./cluster1/vault_spl_withdraw",
+    "nft_image": "ts-node ./cluster1/NFT/nft_image.ts",
+    "nft_metadata": "ts-node ./cluster1/NFT/nft_metadata.ts",
+    "nft_mint": "ts-node ./cluster1/NFT/nft_mint.ts"
   },
   "dependencies": {
+    "@metaplex-foundation/js": "^0.19.3",
     "@metaplex-foundation/mpl-token-metadata": "^2.10.0",
     "@project-serum/anchor": "0.26.0",
     "@solana/spl-token": "^0.3.7",
